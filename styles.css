@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: black;
+    flex-direction: column;
+}
+
+.item {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.seconditem {
+    justify-content: center;
+    align-items: center;
+}
+
+.thirditem {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
