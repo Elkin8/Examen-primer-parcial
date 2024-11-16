@@ -11,9 +11,9 @@
 }
 
 .item {
-    display: block;
-    justify-content: center;
-    align-self: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     font-size: 30px;
 }
 
