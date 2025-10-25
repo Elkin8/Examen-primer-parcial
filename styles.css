@@ -1,32 +1,42 @@
-.container {
-    display: flex;
-    background-color: white;
-    border-radius: 10px;
-    border-color: black;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 300px;
-    width: 200px;
-    height: 300px;
-}
-
-.item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-size: 30px;
-}
-
-.seconditem {
+body {
+    background-color: green; /* Fondo de mesa de juego */
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    padding: 10px;
+}
+
+.item {
+    font-size: 30px;
+    color: black; /* Espadas = negro */
+    font-family: 'Times New Roman', serif;
+    align-self: flex-start;
+}
+
+.seconditem {
     font-size: 75px;
+    color: black;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
 }
 
 .thirditem {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     font-size: 30px;
+    color: black;
+    font-family: 'Times New Roman', serif;
+    align-self: flex-end;
+    transform: rotate(180deg); /* Para simular el reverso del número */
 }
