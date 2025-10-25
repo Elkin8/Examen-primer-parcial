@@ -1,5 +1,5 @@
 body {
-    background-color: green; /* Fondo de mesa de juego */
+    background-color: green; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ body {
 
 .item {
     font-size: 30px;
-    color: black; /* Espadas = negro */
+    color: black; 
     font-family: 'Times New Roman', serif;
     align-self: flex-start;
 }
@@ -38,5 +38,5 @@ body {
     color: black;
     font-family: 'Times New Roman', serif;
     align-self: flex-end;
-    transform: rotate(180deg); /* Para simular el reverso del número */
+    transform: rotate(180deg); 
 }
